@@ -1,0 +1,56 @@
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#add_item {
+    width: 30%;
+    height: 40px;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+button{
+    margin-right: 10px;
+}
+
+ul {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: #fff;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    border-radius: 3px;
+    transition: .4s;
+}
+
+@media only screen and (max-width: 540px){
+    #add_item{
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        font-size: 14px;
+    }
+
+    button{
+        margin: 5px;
+        width: 32% !important;
+    }
+
+    ul {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    span{
+        width: 55% !important;
+    }
+}
